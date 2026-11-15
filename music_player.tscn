@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cxplmpnlvkla8"]
+
+[ext_resource type="Script" uid="uid://b516grdabbifl" path="res://music_player.gd" id="1_k4xj7"]
+[ext_resource type="AudioStream" uid="uid://bf3ch1vwqnh4b" path="res://beepbox-song_Rvf6fwAQ.mp3" id="2_p3pav"]
+
+[node name="MusicPlayer" type="Node" unique_id=658117294]
+script = ExtResource("1_k4xj7")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1455840680]
+stream = ExtResource("2_p3pav")
+volume_db = -8.836
